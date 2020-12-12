@@ -1,0 +1,15 @@
+import random
+Group= ['Group A','Group B','Group C','Group D','Group E','Group F','Group G','Group H']
+
+First =['Arsenal (ENG)','Astana (KAZ)','Atlético (ESP)','BATE (BLR)','CSKA Moskva (RUS)','Dinamo Zagreb (CRO)','Dynamo Kyiv (UKR)','Galatasaray (TUR)','Gent (BEL)','Leverkusen (GER)','Lyon (FRA)','M. Tel-Aviv (ISR)','Malmö (SWE)','Man. City (ENG)','Man. United (ENG)','Mönchengladbach (GER)','Olympiacos (GRE)','Porto (POR)','Real Madrid (ESP)','Roma (ITA)','Sevilla (ESP)','Shakhtar Donetsk (UKR)','Valencia (ESP)','Wolfsburg (GER)']
+Second =['Arsenal (ENG)','Astana (KAZ)','Atlético (ESP)','BATE (BLR)','CSKA Moskva (RUS)','Dinamo Zagreb (CRO)','Dynamo Kyiv (UKR)','Galatasaray (TUR)','Gent (BEL)','Leverkusen (GER)','Lyon (FRA)','M. Tel-Aviv (ISR)','Malmö (SWE)','Man. City (ENG)','Man. United (ENG)','Mönchengladbach (GER)','Olympiacos (GRE)','Porto (POR)','Real Madrid (ESP)','Roma (ITA)','Sevilla (ESP)','Shakhtar Donetsk (UKR)','Valencia (ESP)','Wolfsburg (GER)']
+Third =['Arsenal (ENG)','Astana (KAZ)','Atlético (ESP)','BATE (BLR)','CSKA Moskva (RUS)','Dinamo Zagreb (CRO)','Dynamo Kyiv (UKR)','Galatasaray (TUR)','Gent (BEL)','Leverkusen (GER)','Lyon (FRA)','M. Tel-Aviv (ISR)','Malmö (SWE)','Man. City (ENG)','Man. United (ENG)','Mönchengladbach (GER)','Olympiacos (GRE)','Porto (POR)','Real Madrid (ESP)','Roma (ITA)','Sevilla (ESP)','Shakhtar Donetsk (UKR)','Valencia (ESP)','Wolfsburg (GER)']
+domestic_league_champions= ['Barcelona (ESP)','Bayern (GER)','Benfica (POR)','Chelsea (ENG)','Juventus (ITA)','Paris (FRA)','PSV (NED)','Zenit (RUS)']
+
+for num in range(100):
+    Group = random.choice(Group)
+    First = random.choice(First)
+    Second = random.choice(Second)
+    Third = random.choice(Third)
+    domestic_league_champions=random.choice(domestic_league_champions)
+    print('{Group}\n{First}\n{Second}\n{Third}\n{domestic_league_champions}')
